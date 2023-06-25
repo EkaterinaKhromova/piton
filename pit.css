@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+html {
+    font-size: 35px;
+    line-height: 180%;
+    margin-top: 0;
+}
+
+.cont {
+    width: 100vw;
+    min-width: 320px;
+    max-width: 1300px;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 25px;
+}
+
+body {
+    height: 100%;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+#knopka {
+    background: radial-gradient(circle, rgb(240, 89, 154) 0%, rgb(116, 175, 241) 100%);
+    font-size: 25px;
+    padding: 5px 25px;
+
+}
+
+#rost {
+    background: #a9ccf4;
+    font-size: 25px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.panda {
+    margin: 15px;
+}
+
+.out {
+    margin: 10px;
+    text-align: center;
+}
